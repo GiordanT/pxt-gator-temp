@@ -17,37 +17,33 @@
 /**
  * Functions to operate the TMP36 sensor
  */
- 
- enum tmp36Type{
-	 //% blockId = "F" block = "Degress in F"
-	 F=1,
-	 
-	 //% blockId ="C" block = "Degrees in C"
-	 C=2,
-	 
-	 //% blockId="adcval" block = "ADC Value"
-	 adcVal=3,
- }
- 
- 
+
+enum tmp36Type {
+    //% blockId="f" block="Degrees in F"
+    FARENHEIT = 1,
+    //% blockId="c" block="Degrees in C"
+    CELSIUS = 2,
+    //% blockId="adc" block="Raw ADC value"
+    RAW_ADC = 3,
+}
 
 //% color=#f44242 icon="\u26C8"
 namespace tmp36 {
-    
+
     // Functions for reading temperature from the TMP36 in degrees C or F
 
     /**
     * Reads the number 
-	* R
     */
-    //% weight=30 blockId="tmp36_temp" block="Get Temperature on pin %pin| in %type"
-    export function temp(pin: AnalogPin, type: tmp36Type): number{
-		let tempADCVal = pins.analogReadPin(pin)
-		switch(type){
-		case tmp36Type.F: return getDegF(tempADCVal)
-		case tmp36Type.C: return getDegC(tempADCVal)
-		case tmp36Type.adcVal: return tempADCVal
-		}
+    //% weight=30 blockId="tmp36_temp" block="Get Temperature on pin %pin | in %tmp36type"
+    export function temp(pin: AnalogPin, tmp36type: tmp36Type): number {
+        let tempADCVal = pins.analogReadPin(pin)
+        switch (tmp36type) {
+            case tmp36Type.FARENHEIT: return getDegF(tempADCVal)
+            case tmp36Type.CELSIUS: return getDegC(tempADCVal)
+            case tmp36Type.RAW_ADC: return tempADCVal
+            default: return -111111111
+        }
     }
 
 	/**
@@ -58,7 +54,7 @@ namespace tmp36 {
         // Fake function for simulator
         return 0
     }
-	
+
 	/**
      * Function used for simulator, actual implementation is in tmp36.cpp
      */
@@ -67,12 +63,5 @@ namespace tmp36 {
         // Fake function for simulator
         return 0
     }
-   
-    }
 
-    
-        
-
-    
-
-    
+}
