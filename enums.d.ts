@@ -1,5 +1,5 @@
 // Auto-generated. Do not edit.
-declare namespace weatherbit {
+declare namespace tmp36 {
 }
 
 // Auto-generated. Do not edit. Really.
