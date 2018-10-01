@@ -34,7 +34,7 @@ namespace gatortemp {
     /**
     * Reads the number
     */
-    //% weight=30 blockId="gatortemp_temp" block="Get Temperature on pin %pin | in %tmp36Type"
+    //% weight=30 blockId="gatortemp_temp" block="Get Temperature on pin %pin | in %gatortempType"
     export function temp(pin: AnalogPin, type: gatortempType): number{
       let tempADCVal = pins.analogReadPin(pin)
       switch(type){
