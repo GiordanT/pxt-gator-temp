@@ -1,5 +1,5 @@
 // Auto-generated. Do not edit.
-declare namespace tmp36 {
+declare namespace gatortemp {
 }
 
 // Auto-generated. Do not edit. Really.

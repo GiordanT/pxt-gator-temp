@@ -16,7 +16,7 @@
      * Distributed as-is; no warranty is given.
      */
 
-declare namespace tmp36 {
+declare namespace gatortemp {
 }
 
 // Auto-generated. Do not edit. Really.

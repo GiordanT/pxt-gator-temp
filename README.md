@@ -1,10 +1,10 @@
-# tmp36
+# gator:temp
 
-TODO: To use this package, go to https://makecode.microbit.org, click ``Add package`` and search for **tmp36**.
+TODO: To use this package, go to https://makecode.microbit.org, click ``Add package`` and search for **gator:temp**.
 
 ## Usage
 
-The package adds support for the **tmp36** sensor used in the SparkFun Inventor's Kit.
+The package adds support for the **gator:temp** sensor which utilizes the MCP9700.
 
 	
 
@@ -18,5 +18,5 @@ see guide
 * for PXT/microbit
 
 ```package
-tmp36=github:sparkfun/pxt-tmp36
+gator:temp=github:sparkfun/pxt-gator-temp
 ```
