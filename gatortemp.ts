@@ -46,7 +46,7 @@ namespace gatorTemp {
     }
 
 	/**
-     * Function used for simulator, actual implementation is in gatortemp.cpp
+     * Function used for simulator, actual implementation is in gatorTemp.cpp
      */
     //% shim=gatorTemp::getDegF
     function getDegF(tempADCVal: number) {
@@ -55,9 +55,9 @@ namespace gatorTemp {
     }
 
 	/**
-     * Function used for simulator, actual implementation is in gatortemp.cpp
+     * Function used for simulator, actual implementation is in gatorTemp.cpp
      */
-    //% shim=gatortemp::getDegC
+    //% shim=gatorTemp::getDegC
     function getDegC(tempADCVal: number) {
         // Fake function for simulator
         return 0

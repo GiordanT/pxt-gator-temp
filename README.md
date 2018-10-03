@@ -1,4 +1,4 @@
-# gator:temp
+# gator:temp Temperature Sensor
 
 TODO: To use this package, go to https://makecode.microbit.org, click ``Add package`` and search for **gator:temp**.
 
@@ -18,5 +18,5 @@ see guide
 * for PXT/microbit
 
 ```package
-gatortemp=github:sparkfun/pxt-gator-temp
+gatorTemp=github:sparkfun/pxt-gator-temp
 ```
