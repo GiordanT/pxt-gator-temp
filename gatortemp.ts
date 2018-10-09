@@ -18,7 +18,7 @@
  * Functions to operate the gatortemp sensor
  */
 
-export enum GatorTempType{
+enum GatorTempType{
 	 F=1,
 	 C=2,
 	 adcVal=3,
@@ -26,7 +26,7 @@ export enum GatorTempType{
 
 
 
-//% color=#f44242 icon="\u26C8"
+//% color=#f44242 icon="\uf2c9"
 namespace gatortemp {
 
     // Functions for reading temperature from the gatortemp in degrees C or F
