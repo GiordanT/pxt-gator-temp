@@ -21,7 +21,7 @@
 
 using namespace pxt;
 
-namespace gatorTemp {
+namespace gatortemp {
     /*
     * Calculates the temeprature in degrees C based on the ADC value passed in.
     */

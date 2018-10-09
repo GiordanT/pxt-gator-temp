@@ -8,8 +8,8 @@
     },
     "files": [
         "README.md",
-        "gatorTemp.ts",
-        "gatorTemp.cpp",
+        "gatortemp.ts",
+        "gatortemp.cpp",
         "shims.d.ts",
         "enums.d.ts"
     ],

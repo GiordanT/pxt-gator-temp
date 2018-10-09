@@ -27,14 +27,14 @@ export enum GatorTempType{
 
 
 //% color=#f44242 icon="\u26C8"
-namespace gatorTemp {
+namespace gatortemp {
 
     // Functions for reading temperature from the gatortemp in degrees C or F
 
     /**
     * Reads the number
     */
-    //% weight=30 blockId="gatorTemp_temp" block="Get Temperature on pin %pin | in %GatorTempType"
+    //% weight=30 blockId="gatortemp_temp" block="Get Temperature on pin %pin | in %GatorTempType"
     export function temp(pin: AnalogPin, type: GatorTempType): number{
       let tempADCVal = pins.analogReadPin(pin)
       switch(type){
@@ -48,7 +48,7 @@ namespace gatorTemp {
 	/**
      * Function used for simulator, actual implementation is in gatorTemp.cpp
      */
-    //% shim=gatorTemp::getDegF
+    //% shim=gatortemp::getDegF
     function getDegF(tempADCVal: number) {
         // Fake function for simulator
         return 0
@@ -57,7 +57,7 @@ namespace gatorTemp {
 	/**
      * Function used for simulator, actual implementation is in gatorTemp.cpp
      */
-    //% shim=gatorTemp::getDegC
+    //% shim=gatortemp::getDegC
     function getDegC(tempADCVal: number) {
         // Fake function for simulator
         return 0

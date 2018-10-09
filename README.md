@@ -18,5 +18,5 @@ see guide
 * for PXT/microbit
 
 ```package
-gatorTemp=github:sparkfun/pxt-gator-temp
+gatortemp=github:sparkfun/pxt-gator-temp
 ```
