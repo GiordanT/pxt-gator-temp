@@ -28,7 +28,7 @@ namespace gatortemp {
     //%
     uint16_t getDegC(int16_t tempADCVal) {
 
-        return ((tempADCVal*3.3/1023)-0.5) *100.0;
+        return ((tempADCVal*3.14/1023)-0.5) *100.0;
     }
 
 	/*
@@ -37,6 +37,6 @@ namespace gatortemp {
     //%
     uint16_t getDegF(int16_t tempADCVal) {
 
-        return (((tempADCVal*3.3/1023)-0.5) *100.0)*(9.0/5.0)+32.0;
+        return (((tempADCVal*3.14/1023)-0.5) *100.0)*(9.0/5.0)+32.0;
     }
 }

@@ -1,17 +1,18 @@
 # gator:temp Temperature Sensor
 
-TODO: To use this package, go to https://makecode.microbit.org, click ``Add package`` and search for **gator:temp**.
+![SparkFun gator:temp](https://raw.githubusercontent.com/sparkfun/pxt-gator-temp/master/icon.png)  
+
+This package adds support for the **gator:temp** add-on board from SparkFun
+
+To use this package, go to https://makecode.microbit.org, click ``Add package`` and search for **gatortemp**.
 
 ## Usage
 
-The package adds support for the **gator:temp** sensor which utilizes the MCP9700.
+The package adds support for the **gator:temp** sensor which utilizes the MCP9700 Temperature Sensor
 
-	
+## License
 
-### Micro:bit Pins Used 
-see guide
-
-
+MIT
 
 ## Supported targets
 
