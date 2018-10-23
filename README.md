@@ -3,12 +3,13 @@
 [![Community Discord](https://img.shields.io/discord/448979533891371018.svg)](https://aka.ms/makecodecommunity)
 
 The gator:starter, which includes the gator:light and gator:temp can be purchased [here.](https://www.sparkfun.com/products/14891)
+The gator:temp, included on the gator:starter is an analog temperature sensor that can be alligator clipped to the micro:bit or gator:bit board.
 
 ![SparkFun gator:temp](https://raw.githubusercontent.com/sparkfun/pxt-gator-temp/master/icon.png)  
 
 ## ~ hint
 
-To use this package, go to https://makecode.microbit.org, click ``Add package`` and search for **gator-temp**.
+To use this package, go to https://makecode.microbit.org, click ``Add package`` and search for **gator-temp**. The package is located [here](https://makecode.microbit.org/pkg/sparkfun/pxt-gator-temp)
 
 ## ~
 
