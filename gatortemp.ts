@@ -26,7 +26,7 @@ enum GatorTempType{
 
 
 
-//% color=#FF0000 icon="\uf2c9"
+//% color=#33ff5e icon="\uf2c9"
 namespace gatortemp {
 
     // Functions for reading temperature from the gatortemp in degrees C or F
@@ -34,7 +34,7 @@ namespace gatortemp {
     /**
     * Reads the number
     */
-    //% weight=30 blockId="gatortemp_temp" block="Get Temperature on pin %pin | in %GatorTempType"
+    //% weight=30 blockId="gatortemp_temp" block="Get Temperature on Test pin %pin | in %GatorTemperatureType"
     export function temp(pin: AnalogPin, type: GatorTempType): number{
       let tempADCVal = pins.analogReadPin(pin)
       switch(type){
