@@ -26,7 +26,7 @@ enum GatorTempType{
 
 
 
-//% color=#f44242 icon="\uf2c9"
+//% color=#FF0000 icon="\uf2c9"
 namespace gatortemp {
 
     // Functions for reading temperature from the gatortemp in degrees C or F
