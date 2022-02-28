@@ -43,5 +43,5 @@ basic.forever(function () {
 MIT
 
 ```package
-gatorMoisture=github:sparkfun/pxt-gator-soil
+gatorMoisture=github:giordant/Moisture
 ```
