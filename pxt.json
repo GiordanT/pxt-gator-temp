@@ -1,15 +1,15 @@
 {
-    "name": "gatortemp",
-    "version": "0.1.2",
-    "description": "SparkFun gator:temp",
+    "name": "gatorMoisture",
+    "version": "0.0.1",
+    "description": "SparkFun gator:Moisture",
     "license": "MIT",
     "dependencies": {
         "core": "*"
     },
     "files": [
         "README.md",
-        "gatortemp.ts",
-        "gatortemp.cpp",
+        "gatorMoisture.ts",
+        "gatorMoisture.cpp",
         "shims.d.ts",
         "enums.d.ts"
     ],

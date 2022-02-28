@@ -14,29 +14,20 @@
 * Distributed as-is; no warranty is given.
 */
 
-
 #include "pxt.h"
 #include <cstdint>
 #include <math.h>
 
 using namespace pxt;
 
-namespace gatortemp {
+namespace gatorMoisture {
     /*
-    * Calculates the temeprature in degrees C based on the ADC value passed in.
+    * Calculates the moisture based on the ADC value passed in. 1 step in adcVal is equal to .488 uA or .976 lux at 5V
     */
     //%
-    uint16_t getDegC(int16_t tempADCVal) {
-
-        return ((tempADCVal*3.14/1023)-0.5) *100.0;
+    uint16_t getMoisture(int16_t ADCVal) {
+        return ADCVal * 1023.0;
     }
 
-	/*
-    * Calculates the temeprature in degrees F based on the ADC value passed in.
-    */
-    //%
-    uint16_t getDegF(int16_t tempADCVal) {
-
-        return (((tempADCVal*3.14/1023)-0.5) *100.0)*(9.0/5.0)+32.0;
-    }
 }
+
